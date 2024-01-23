@@ -14,7 +14,7 @@ import { useState } from "react";
           );
           setresturent(filterres);
          }}>
-            TopRatedResturant
+            TopRatedResturant yes
             </button>
          <div className="res-container">
           {
