@@ -9,7 +9,7 @@ import { useState } from "react";
          onClick={()=>{
           const filterres=resturent.filter(
             (res)=>{
-              return res.info.avgRating>=4.5
+              return res.info.avgRating>=4
             }
           );
           setresturent(filterres);
